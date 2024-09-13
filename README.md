@@ -16,4 +16,3 @@ Functional Programming with Haskell and mainstream languages
 5. John De Nero, “Composing Programs”. Online https://composingprograms.com/
 6. Wampler Dean, “Functional Programming for Java Developers”, O’Reilly, 2011.
 
-**Programs from the primary reference**: https://www.cs.ox.ac.uk/publications/books/functional/

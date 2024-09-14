@@ -22,7 +22,7 @@ There are 4 core important things that you absolutely need to know.
 
 1. Keep the functions and data totally separate. No side effect.
 
-This is not an acceptable code in FP.
+This is not an acceptable code in FP
 ```
 let score = 456;
 function addBonus() {
@@ -30,10 +30,10 @@ function addBonus() {
     return score
 }
 ```
+whereas the following is preferred.
 ```
 function addBonus(score) {
-   score = score + 25;
-   return score
+   return score + 25;
 }
 ```
 

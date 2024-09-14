@@ -20,7 +20,7 @@ Functional Programming (FP) is a style or way of writing programs treating value
 
 There are 4 core important things that you absolutely need to know.
 1. No side effect
-This is not an acceptable code in F
+This is not an acceptable code in FP.
 ```
 let score = 456;
 function addBonus() {

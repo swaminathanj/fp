@@ -6,6 +6,8 @@ Functional Programming with Haskell and mainstream languages
 
 **Hackerrank problems**: https://www.hackerrank.com/domains/fp
 
+**Video lectures on FP and Haskell**: https://www.youtube.com/watch?v=bXM5wfQsPn0&list=PLA_-EWSPTJcu4i7RFCl_KeGrrz37C4_Oc
+
 **Reference texts**
 
 1. Richard Bird, “[Thinking Functionally with Haskell](https://elhacker.info/manuales/Lenguajes%20de%20Programacion/Haskell/Thinking%20Functionally%20With%20Haskell.pdf)”, Cambridge University Press, 2014.

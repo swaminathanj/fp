@@ -20,7 +20,7 @@ Functional Programming (FP) is a style or way of writing programs treating value
 
 There are 4 core important things that you absolutely need to know.
 
-1. Keep the functions and data totally separate. No side effect.
+1. Keep the functions and data totally separate. Pure functions/No side effect.
 
 This is not an acceptable code in FP
 ```
@@ -36,8 +36,9 @@ function addBonus(score) {
    return score + 25;
 }
 ```
-
 The second one is not referring to any global variable and the behavior can be reasoned easily.
+
+Also in pure FP languages, a 'function' must take a single input and give a single output. And when a function is guaranteed to give the same output everytime it is called with same input, it is called as a pure function. These are often mathematical expressions. But we can't always guarantee that, like in case of writing to a file for example. Those are impure functions. Since calling an impure function makes the caller impure too, we wrap the function along with the required context in a box. Now this box, is called as a monad. Also, this is why pure FP languages doesn't allow you to declare variables directly, unless you keep them in a State monad.
 
 2. Do not change the state much often. If you can avoid it, do it. Immutability.
 ```
@@ -52,8 +53,10 @@ greetSat = "hey there"
 ```
 3. Functions are treated as first class. First class citizens.
 ```
-const addScore = function() {....}
+const addScore = function() {....}  // treat a function as a variable
+sayHello(function() {...}) {   // pass function as a parameter
+   return function(){...}      // return a function
+}
 ```
-4. 
 
-5. 
+There are two parts to FP, one is the concept of purity, and the second part is mathematical abstractions like Functors, Applicatives, Monoids, Monads, Transformers, Type Classes, types vs kinds, compile time row polymorphism etc.

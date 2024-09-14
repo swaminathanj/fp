@@ -19,7 +19,9 @@ Functional Programming with Haskell and mainstream languages
 Functional Programming (FP) is a style or way of writing programs treating values and functions in some different way.
 
 There are 4 core important things that you absolutely need to know.
-1. No side effect
+
+1. Keep the functions and data totally separate. No side effect.
+
 This is not an acceptable code in FP.
 ```
 let score = 456;
@@ -34,3 +36,20 @@ function addBonus(score) {
    return score
 }
 ```
+
+The second one is not referring to any global variable and the behavior can be reasoned easily.
+
+2. Do not change the state much often. If you can avoid it, do it.
+```
+greet = "hi"
+greet = "hello"
+greet = "hey there"
+```
+```
+greet = "hi"
+greetWed = "hello"
+greetSat = "hey there"
+```
+3. 
+
+4. 

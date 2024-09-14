@@ -39,7 +39,7 @@ function addBonus(score) {
 
 The second one is not referring to any global variable and the behavior can be reasoned easily.
 
-2. Do not change the state much often. If you can avoid it, do it.
+2. Do not change the state much often. If you can avoid it, do it. Immutability.
 ```
 greet = "hi"
 greet = "hello"
@@ -50,6 +50,10 @@ greet = "hi"
 greetWed = "hello"
 greetSat = "hey there"
 ```
-3. 
-
+3. Functions are treated as first class. First class citizens.
+```
+const addScore = function() {....}
+```
 4. 
+
+5. 

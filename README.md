@@ -16,3 +16,21 @@ Functional Programming with Haskell and mainstream languages
 5. John De Nero, “Composing Programs”. Online https://composingprograms.com/
 6. Wampler Dean, “Functional Programming for Java Developers”, O’Reilly, 2011.
 
+Functional Programming (FP) is a style or way of writing programs treating values and functions in some different way.
+
+There are 4 core important things that you absolutely need to know.
+1. No side effect
+This is not an acceptable code in F
+```
+let score = 456;
+function addBonus() {
+    score = score + 25;
+    return score
+}
+```
+```
+function addBonus(score) {
+   score = score + 25;
+   return score
+}
+```

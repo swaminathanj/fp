@@ -12,7 +12,7 @@ Functional Programming with Haskell and mainstream languages
 
 1. Richard Bird, “[Thinking Functionally with Haskell](https://elhacker.info/manuales/Lenguajes%20de%20Programacion/Haskell/Thinking%20Functionally%20With%20Haskell.pdf)”, Cambridge University Press, 2014.
    - **Chapterwise programs from** https://www.cs.ox.ac.uk/publications/books/functional/
-2. Rebecca Skinner, “Effective Haskell - Solving Real-World Problems with Strongly Typed Functional Programming”, Pragmatic Bookshelf, 2023.
+2. Rebecca Skinner, “[Effective Haskell - Solving Real-World Problems with Strongly Typed Functional Programming](books/Effective-Haskell.pdf)”, Pragmatic Bookshelf, 2023.
 3. Richard S. Bird and Jeremy Gibbons, “Algorithm Design with Haskell”, Cambridge University Press, 2020.
 4. David Mertz, “Functional Programming in Python”, O’Reilly, 2015.
 5. John De Nero, “Composing Programs”. Online [https://composingprograms.com/](https://www.composingprograms.com/)

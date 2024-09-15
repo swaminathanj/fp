@@ -6,7 +6,7 @@ Functional Programming with Haskell and mainstream languages
 
 **Hackerrank problems**: https://www.hackerrank.com/domains/fp
 
-**Video lectures on FP and Haskell**: https://www.youtube.com/watch?v=bXM5wfQsPn0&list=PLA_-EWSPTJcu4i7RFCl_KeGrrz37C4_Oc and the course notes are available at https://verify.rwth-aachen.de/fp12/
+**Video lectures on FP and Haskell**: https://www.youtube.com/watch?v=bXM5wfQsPn0&list=PLA_-EWSPTJcu4i7RFCl_KeGrrz37C4_Oc and the course notes are available at https://verify.rwth-aachen.de/fp12/ (apparently notes are in German).
 
 **Reference texts**
 

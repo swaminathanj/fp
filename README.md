@@ -2,6 +2,8 @@
 
 Functional Programming with Haskell and mainstream languages
 
+**Installation**: https://www.haskell.org/ghcup/
+
 **Online compiler**: https://onecompiler.com/haskell
 
 **Hackerrank problems**: https://www.hackerrank.com/domains/fp
